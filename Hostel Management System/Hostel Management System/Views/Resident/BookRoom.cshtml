@@ -1,0 +1,132 @@
+﻿@model IEnumerable<BLL.DTOs.RoomDTO>
+
+
+
+<div class="d-flex justify-content-between align-items-center bg-light p-3 mb-4 rounded shadow-sm">
+    <div>
+        <a asp-controller="Resident" asp-action="Dashboard" class="btn btn-primary">Dashboard</a>
+    </div>
+
+    <div class="text-center">
+        <a asp-controller="Resident" asp-action="BookRoom" class="btn btn-outline-primary mx-2">Book Room</a>
+        <a href="#" class="btn btn-outline-primary mx-2">Meals</a>
+        <a href="#" class="btn btn-outline-primary mx-2">Bills & Expenses</a>
+    </div>
+
+    <div>
+        <a asp-controller="Account" asp-action="Logout" class="btn btn-danger">Logout</a>
+    </div>
+</div>
+
+
+<div class="container mt-4">
+    @if (ViewBag.Message != null)
+    {
+        <div class="alert alert-warning">
+            @ViewBag.Message
+        </div>
+    }
+    <div class=" d-flex justify-content-between">
+        <div>
+             <h3 class="mb-4">
+            Available Rooms
+        </h3>
+        </div>
+       
+        <div class="justify-content-end">
+            <a asp-controller="Resident" asp-action="PendingRooms" class="btn btn-outline-primary mx-2">Pending Rooms</a>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="table-responsive">
+        @if (ViewBag.ApprovedRoom != null)
+        {
+            var room = ViewBag.ApprovedRoom as BLL.DTOs.RoomAllocationDTO;
+
+            <div class="alert alert-success">
+
+                <h5>
+                    Your room booking has been approved.
+                </h5>
+
+                <hr />
+
+                <p>
+                    <strong>Room Number:</strong>
+                    @room.RoomNumber
+                </p>
+
+                <p>
+                    <strong>Floor:</strong>
+                    @room.FloorNumber
+                </p>
+
+                <p>
+                    <strong>Monthly Rent:</strong>
+                    @room.MonthlyRent
+                </p>
+
+                <p>
+                    <strong>Status:</strong>
+                    @room.Status
+                </p>
+
+            </div>
+        }
+
+        else
+        {
+            <table class="table table-bordered table-striped">
+
+                <thead class="table-dark">
+                    <tr>
+                        <th>Room Number</th>
+                        <th>Floor</th>
+                        <th>Capacity</th>
+                        <th>Occupied Beds</th>
+                        <th>Monthly Rent</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    @foreach (var room in Model)
+                    {
+                        <tr>
+
+                            <td>@room.RoomNumber</td>
+
+                            <td>@room.FloorNumber</td>
+
+                            <td>@room.Capacity</td>
+
+                            <td>@room.OccupiedBeds</td>
+
+                            <td>@room.MonthlyRent</td>
+
+                            <td>@room.Status</td>
+
+                            <td class="justify-content-center">
+
+                                <a asp-controller="Resident" asp-action="Book" asp-route-roomId="@room.RoomId"class="btn btn-success btn-sm ">
+                                    Book
+                                </a>
+                            </td>
+
+                        </tr>
+                    }
+
+                </tbody>
+
+            </table>
+        }
+
+    </div>
+
+</div>

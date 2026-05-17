@@ -1,0 +1,69 @@
+﻿@model BLL.DTOs.UserDTO
+
+@{
+    ViewData["Title"] = "Edit User";
+}
+<div class="d-flex justify-content-between align-items-center bg-light p-3 mb-4 rounded shadow-sm">
+
+    <div>
+        <a href="#" class="btn btn-secondary">Profile</a>
+    </div>
+
+    <div>
+        <a asp-controller="Account" asp-action="Logout" class="btn btn-danger">Logout</a>
+    </div>
+</div>
+<div class="container mt-4">
+    <div class="card shadow-sm col-md-6 mx-auto">
+        <div class="card-body">
+            <h3 class="card-title mb-4">Edit User Profile</h3>
+
+            <form asp-action="Edit" method="post">
+                <input type="hidden" asp-for="UserId" />
+
+                <div class="mb-3">
+                    <label asp-for="FullName" class="form-label">Full Name</label>
+                    <input asp-for="FullName" class="form-control" />
+                    <span asp-validation-for="FullName" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Email" class="form-label">Email (Read-Only)</label>
+                    <input asp-for="Email" class="form-control" readonly />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="StudentId" class="form-label">Student ID</label>
+                    <input asp-for="StudentId" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Phone" class="form-label">Phone Number</label>
+                    <input asp-for="Phone" class="form-control" />
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+
+                <div class="mb-4">
+                    <label asp-for="Gender" class="form-label">Gender</label>
+                    <select asp-for="Gender" class="form-select">
+                        <option value="" disabled selected >Select Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <a asp-action="Dashboard" class="btn btn-secondary">Back to List</a>
+                    <button type="submit" class="btn btn-success">Save Changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

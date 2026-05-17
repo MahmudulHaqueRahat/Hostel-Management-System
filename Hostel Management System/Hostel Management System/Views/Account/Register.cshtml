@@ -1,0 +1,83 @@
+﻿@model BLL.DTOs.UserDTO
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="card-title mb-0">Resident Registration</h3>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="FullName" class="form-label">Full Name</label>
+                            <input asp-for="FullName" class="form-control" placeholder="Enter your full name" required />
+                            <span asp-validation-for="FullName" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="StudentId" class="form-label">Student ID (Optional)</label>
+                            <input asp-for="StudentId" class="form-control" placeholder="Enter your student ID" />
+                            <span asp-validation-for="StudentId" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Email" class="form-label">Email Address</label>
+                            <input asp-for="Email" type="email" class="form-control" placeholder="Enter your email" required />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Phone" class="form-label">Phone Number</label>
+                            <input asp-for="Phone" type="tel" class="form-control" placeholder="Enter your phone number" required />
+                            <span asp-validation-for="Phone" class="text-danger"></span>
+                        </div>
+
+                        <!-- Gender Radio Buttons -->
+                        <div class="form-group mb-3">
+                            <label class="form-label d-block">Gender</label>
+                            <div class="form-check form-check-inline">
+                                <input asp-for="Gender" class="form-check-input" type="radio" value="Male" id="genderMale" />
+                                <label class="form-check-label" for="genderMale">Male</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input asp-for="Gender" class="form-check-input" type="radio" value="Female" id="genderFemale" />
+                                <label class="form-check-label" for="genderFemale">Female</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input asp-for="Gender" class="form-check-input" type="radio" value="Other" id="genderOther" />
+                                <label class="form-check-label" for="genderOther">Other</label>
+                            </div>
+                            <span asp-validation-for="Gender" class="text-danger d-block mt-1"></span>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label asp-for="PasswordHash" class="form-label">Password</label>
+                            <input asp-for="PasswordHash" type="password" class="form-control" placeholder="Create a password" required />
+                            <span asp-validation-for="PasswordHash" class="text-danger"></span>
+                        </div>
+
+
+
+                        <div class="d-grid">
+                            <button type="submit" value="Create" class="btn btn-primary btn-lg">Register</button>
+                            <a asp-controller="Account" asp-action="Back" class="btn btn-secondary btn-lg mt-2">Back</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

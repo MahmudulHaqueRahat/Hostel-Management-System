@@ -1,0 +1,120 @@
+﻿@model IEnumerable<BLL.DTOs.UserDTO>
+
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<div class="d-flex justify-content-between align-items-center bg-light p-3 mb-4 rounded shadow-sm">
+
+    <div>
+        <a asp-controller="Admin" asp-action="Profile" class="btn btn-secondary">Profile</a>
+    </div>
+
+    <div class="text-center">
+        <a asp-controller="Admin" asp-action="Dashboard" class="btn btn-primary mx-2">Users</a>
+        <a asp-controller="Admin" asp-action="Room" class="btn btn-outline-primary mx-2">Rooms</a>
+        <a href="#" class="btn btn-outline-primary mx-2">Meals</a>
+
+    </div>
+
+    <div>
+        <a asp-controller="Account" asp-action="Logout" class="btn btn-danger">Logout</a>
+    </div>
+</div>
+
+@* <div class="row mb-3 justify-content-end">
+    <div class="col-md-4">
+        <input type="text" id="searchInput"class="form-control border border-black" placeholder="Search users..." />
+    </div>
+</div> *@
+
+
+        <form method="get" asp-action="Dashboard" asp-controller="Admin" class="mb-3 ">
+
+            <div class="row justify-content-end pt-2">
+                <div class="col-md-4 ">
+                    <input type="text" name="search" value="@ViewBag.Search" class="form-control border border-black" placeholder="Search by Name, Student ID or Email" />
+                </div>
+
+                <div class="col-md-1">
+                    <button type="submit" class="btn btn-primary">
+                        Search
+                    </button>
+                </div>
+            </div>
+        </form>
+
+
+
+
+
+
+<div class="container-fluid">
+    <h3 class="mb-3">Registered Users</h3>
+
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped table-hover" id="userTable">
+            <thead class="table-dark">
+                <tr>
+                    <th>Full Name</th>
+                    <th>Student ID</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Gender</th>
+                    <th>Profile</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Any())
+                {
+                    foreach (var user in Model)
+                    {
+                        <tr>
+                            <td>@user.FullName</td>
+                            <td>@(string.IsNullOrEmpty(user.StudentId) ? "N/A" : user.StudentId)</td>
+                            <td>@user.Email</td>
+                            <td>@user.Phone</td>
+                            <td>@user.Gender</td>
+                            <td>
+                                <a asp-controller="Room" asp-action="Edit" asp-route-id="@user.UserId" class="btn btn-warning btn-sm">
+                                    Edit
+                                </a>
+
+                                <a asp-controller="Admin" asp-action="Delete" asp-route-id="@user.UserId" class="btn btn-danger btn-sm">
+                                    Delete
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="5" class="text-center text-muted">No users found in the system.</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+@* <script>
+    document.getElementById("searchInput").addEventListener("keyup", function () {
+
+        let filter = this.value.toLowerCase();
+
+        let rows = document.querySelectorAll("#userTable tr");
+
+        rows.forEach(function (row) {
+
+            let text = row.innerText.toLowerCase();
+
+            if (text.includes(filter)) {
+                row.style.display = "";
+            }
+            else {
+                row.style.display = "none";
+            }
+
+        });
+    });
+</script> *@

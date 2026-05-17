@@ -1,0 +1,230 @@
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\appsettings.Development.json
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\appsettings.json
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Hostel Management System.staticwebassets.runtime.json
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Hostel Management System.staticwebassets.endpoints.json
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Hostel Management System.exe
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Hostel Management System.deps.json
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Hostel Management System.runtimeconfig.json
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Hostel Management System.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Hostel Management System.pdb
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\BLL.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\DAL.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\BLL.pdb
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\DAL.pdb
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\Hostel Management System.csproj.AssemblyReference.cache
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\Hostel Management System.GeneratedMSBuildEditorConfig.editorconfig
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\Hostel Management System.AssemblyInfoInputs.cache
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\Hostel Management System.AssemblyInfo.cs
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\Hostel Management System.csproj.CoreCompileInputs.cache
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\Hostel Management System.MvcApplicationPartsAssemblyInfo.cache
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\Hostel Management System.RazorAssemblyInfo.cache
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\Hostel Management System.RazorAssemblyInfo.cs
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\rjimswa.dswa.cache.json
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\scopedcss\bundle\Hostel Management System.styles.css
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\scopedcss\projectbundle\Hostel Management System.bundle.scp.css
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\o7stqbzh0t-{0}-b9sayid5wm-b9sayid5wm.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\v35zf32xzx-{0}-61n19gt1b8-61n19gt1b8.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\ov4geoyksf-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\phb1wwtci8-{0}-bqjiyaj88i-bqjiyaj88i.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\9xhicifuac-{0}-c2jlpeoesf-c2jlpeoesf.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\fu0wewg0wo-{0}-erw9l3u2r3-erw9l3u2r3.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\2hqrg7mw8a-{0}-aexeepp0ev-aexeepp0ev.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\rlsgv3fk23-{0}-d7shbmvgxk-d7shbmvgxk.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\ekpygz29y9-{0}-ausgxo2sd3-ausgxo2sd3.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\wprarkoccs-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\add3ibm3en-{0}-cosvhxvwiu-cosvhxvwiu.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\f4ng0tjfdk-{0}-ub07r2b239-ub07r2b239.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\742ol9uo4b-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\8puo6yiuio-{0}-b7pk76d08c-b7pk76d08c.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\r5m6kb1zr1-{0}-fsbi9cje9m-fsbi9cje9m.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\6edarz9ky5-{0}-rzd6atqjts-rzd6atqjts.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\9s2eo9fpnl-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\ftwgccuy7q-{0}-dxx9fxp4il-dxx9fxp4il.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\5oqdlaj9m1-{0}-jd9uben2k1-jd9uben2k1.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\u1nij47aog-{0}-khv3u5hwcm-khv3u5hwcm.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\a7z7ne6qe3-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\ixaajkwtik-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\o29rgqjfuo-{0}-c2oey78nd0-c2oey78nd0.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\379wz9pzpp-{0}-tdbxkamptv-tdbxkamptv.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\tcjvnvy7y0-{0}-j5mq2jizvt-j5mq2jizvt.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\rwa23stacv-{0}-06098lyss8-06098lyss8.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\5ctkhmfrhn-{0}-nvvlpmu67g-nvvlpmu67g.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\5mbtce0lpr-{0}-s35ty4nyc5-s35ty4nyc5.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\s40u2x5tzl-{0}-pj5nd1wqec-pj5nd1wqec.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\9imo4kb4w6-{0}-46ein0sx1k-46ein0sx1k.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\4scgtvk0e8-{0}-v0zj4ognzu-v0zj4ognzu.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\ba61j9gwpn-{0}-37tfw0ft22-37tfw0ft22.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\zfhefqyg1w-{0}-hrwsygsryq-hrwsygsryq.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\iqfu8gue7q-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\oqf92o82x8-{0}-ft3s53vfgj-ft3s53vfgj.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\yu6dpeyaps-{0}-6cfz1n2cew-6cfz1n2cew.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\q9443hz2jz-{0}-6pdc2jztkx-6pdc2jztkx.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\thyi0bklqp-{0}-493y06b0oq-493y06b0oq.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\enrhtd45w6-{0}-iovd86k7lj-iovd86k7lj.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\oucavl5wx4-{0}-vr1egmr9el-vr1egmr9el.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\yarokhcqbb-{0}-kbrnm935zg-kbrnm935zg.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\tj7805lrfn-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\osf4mnprwb-{0}-y7v9cxd14o-y7v9cxd14o.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\83s12s3mms-{0}-notf2xhcfb-notf2xhcfb.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\5objkxcwvl-{0}-h1s4sie4z3-h1s4sie4z3.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\fqivsnzqbc-{0}-63fj8s7r0e-63fj8s7r0e.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\b1z9fj90e4-{0}-0j3bgjxly4-0j3bgjxly4.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\5mj3d2bg4e-{0}-47otxtyo56-47otxtyo56.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\7hht5x6369-{0}-4v8eqarkd7-4v8eqarkd7.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\m88q14nie3-{0}-356vix0kms-356vix0kms.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\6ssaizlbuq-{0}-83jwlth58m-83jwlth58m.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\iqad7c27ac-{0}-mrlpezrjn3-mrlpezrjn3.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\0x4t90vzol-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\gtpaxtfsef-{0}-ag7o75518u-ag7o75518u.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\h8b08aqrrw-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\durs5fk24y-{0}-0i3buxo5is-0i3buxo5is.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\jemco0jz57-{0}-o1o13a6vjx-o1o13a6vjx.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\1l7yx2zetn-{0}-ttgo8qnofa-ttgo8qnofa.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\utbkabp0ap-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\eewnppnxi4-{0}-muycvpuwrr-muycvpuwrr.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\aibg41uwhj-{0}-87fc7y1x7t-87fc7y1x7t.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\0920v4uyjj-{0}-mlv21k5csn-mlv21k5csn.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\6dvvqoikdd-{0}-nm4lok0cqh-nm4lok0cqh.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\compressed\6vf4dprjel-{0}-nm4lok0cqh-nm4lok0cqh.gz
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\staticwebassets.build.json
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\staticwebassets.build.json.cache
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\staticwebassets.development.json
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\swae.build.ex.cache
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\Hostel M.5F5FD9E2.Up2Date
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\Hostel Management System.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\refint\Hostel Management System.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\Hostel Management System.pdb
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\Hostel Management System.genruntimeconfig.cache
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\ref\Hostel Management System.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Azure.Core.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Azure.Identity.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Humanizer.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Microsoft.Build.Framework.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Microsoft.Data.SqlClient.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Microsoft.Identity.Client.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Mono.TextTemplating.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\Newtonsoft.Json.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\System.ClientModel.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\System.CodeDom.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\System.Composition.AttributedModel.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\System.Composition.Convention.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\System.Composition.Hosting.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\System.Composition.Runtime.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\System.Composition.TypedParts.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\System.Memory.Data.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\cs\Microsoft.Data.SqlClient.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\de\Microsoft.Data.SqlClient.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\es\Microsoft.Data.SqlClient.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\it\Microsoft.Data.SqlClient.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\pl\Microsoft.Data.SqlClient.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\tr\Microsoft.Data.SqlClient.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\AutoMapper.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

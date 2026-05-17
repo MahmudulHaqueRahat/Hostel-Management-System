@@ -1,0 +1,93 @@
+﻿using DAL.EF;
+using DAL.EF.Tables;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace DAL.Repos
+{
+    public class UserRepo
+    {
+        HostelContext db;
+        public UserRepo(HostelContext db)
+        {
+            this.db = db;
+        }
+
+        public bool Create(User user)
+        {
+            db.Users.Add(user);
+            return db.SaveChanges() > 0;
+        }
+        public bool IsNameExist(string name)
+        {
+            return db.Users.Any(u => u.FullName == name);
+        }
+
+        public bool IsEmailExist(string email)
+        {
+            return db.Users.Any(u => u.Email == email);
+        }
+        public User GetByEmail(string email)
+        {
+            return db.Users.FirstOrDefault(u => u.Email == email);
+        }
+
+        public List<User> Get()
+        {
+            return db.Users.ToList();
+        }
+        public User GetById(int id)
+        {
+            return db.Users.Find(id);
+        }
+        public bool Update(User c)
+        {
+            var exobj = db.Users.Find(c.UserId);
+
+            if (exobj == null)
+            {
+                return false;
+            }
+
+            exobj.FullName = c.FullName;
+            exobj.StudentId = c.StudentId;
+            exobj.Email = c.Email;
+            exobj.Phone = c.Phone;
+            exobj.Gender = c.Gender;
+
+            db.SaveChanges();
+            return true;
+        }
+        public bool Delete(int id)
+        {
+            var user = db.Users.Find(id);
+
+            if (user == null)
+            {
+                return false;
+            }
+
+            db.Users.Remove(user);
+
+            return db.SaveChanges() > 0;
+        }
+        public List<User> SearchUsers(string search)
+        {
+            if (string.IsNullOrWhiteSpace(search))
+            {
+                return db.Users.ToList();
+            }
+
+            search = search.ToLower();
+
+            return db.Users
+                .Where(u =>
+                    u.FullName.ToLower().Contains(search) ||
+                    u.StudentId.ToLower().Contains(search) ||
+                    u.Email.ToLower().Contains(search))
+                .ToList();
+        }
+
+    }
+}

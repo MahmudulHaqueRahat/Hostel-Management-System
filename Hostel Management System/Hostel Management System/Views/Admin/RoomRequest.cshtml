@@ -1,0 +1,110 @@
+﻿@model IEnumerable<BLL.DTOs.RoomAllocationDTO>
+
+<div class="d-flex justify-content-between align-items-center bg-light p-3 mb-4 rounded shadow-sm">
+
+    <div>
+        <a asp-controller="Admin" asp-action="Profile" class="btn btn-secondary">Profile</a>
+    </div>
+
+    <div class="text-center">
+        <a asp-controller="Admin" asp-action="Dashboard" class="btn btn-outline-primary mx-2">Users</a>
+        <a asp-controller="Admin" asp-action="Room" class="btn btn-outline-primary mx-2">Rooms</a>
+        <a href="#" class="btn btn-outline-primary mx-2">Meals</a>
+
+    </div>
+
+    <div>
+        <a asp-controller="Account" asp-action="Logout" class="btn btn-danger">Logout</a>
+    </div>
+</div>
+
+<div class="container mt-4">
+
+    <h3 class="mb-4">
+        Pending Room Requests
+    </h3>
+
+    <div class="table-responsive">
+
+        <table class="table table-bordered table-striped">
+
+            <thead class="table-dark">
+                <tr>
+                    <th>Resident Name</th>
+                    <th>Room Number</th>
+                    <th>Allocation Date</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @if (TempData["SuccessMsg"] != null)
+                {
+                    <div class="alert alert-success">@TempData["SuccessMsg"]</div>
+                }
+                @if (TempData["ErrorMsg"] != null)
+                {
+                    <div class="alert alert-danger">@TempData["ErrorMsg"]</div>
+                }
+
+                @if(Model.Any())
+                {
+                    @foreach(var item in Model)
+                    {
+                        <tr>
+
+                            <td>
+                                @item.ResidentName
+                            </td>
+
+                            <td>
+                                @item.RoomNumber
+                            </td>
+
+                            <td>
+                                @item.AllocationDate
+                            </td>
+
+                            <td>
+                                @item.Status
+                            </td>
+
+                            <td>
+
+                                <a asp-controller="Admin"
+                                   asp-action="ApproveRoom"
+                                   asp-route-id="@item.AllocationId"
+                                   class="btn btn-success btn-sm">
+                                    Approve
+                                </a>
+
+                                <a asp-controller="Admin"
+                                   asp-action="RejectRoom"
+                                   asp-route-id="@item.AllocationId"
+                                   class="btn btn-danger btn-sm">
+                                    Reject
+                                </a>
+
+                            </td>
+
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="5"
+                            class="text-center text-muted">
+                            No pending requests found.
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>

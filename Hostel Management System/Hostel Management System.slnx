@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="BLL/BLL.csproj" />
+  <Project Path="DAL/DAL.csproj" />
+  <Project Path="Hostel Management System/Hostel Management System.csproj" />
+</Solution>

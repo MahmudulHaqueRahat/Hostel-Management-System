@@ -1,0 +1,14 @@
+D:\Adv Web tech\Final Asp project\Hostel Management System\DAL\bin\Debug\net10.0\DAL.deps.json
+D:\Adv Web tech\Final Asp project\Hostel Management System\DAL\bin\Debug\net10.0\DAL.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\DAL\bin\Debug\net10.0\DAL.pdb
+D:\Adv Web tech\Final Asp project\Hostel Management System\DAL\obj\Debug\net10.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Adv Web tech\Final Asp project\Hostel Management System\DAL\obj\Debug\net10.0\DAL.AssemblyInfoInputs.cache
+D:\Adv Web tech\Final Asp project\Hostel Management System\DAL\obj\Debug\net10.0\DAL.AssemblyInfo.cs
+D:\Adv Web tech\Final Asp project\Hostel Management System\DAL\obj\Debug\net10.0\DAL.csproj.CoreCompileInputs.cache
+D:\Adv Web tech\Final Asp project\Hostel Management System\DAL\obj\Debug\net10.0\DAL.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\DAL\obj\Debug\net10.0\refint\DAL.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\DAL\obj\Debug\net10.0\DAL.pdb
+D:\Adv Web tech\Final Asp project\Hostel Management System\DAL\obj\Debug\net10.0\ref\DAL.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\DAL\bin\Debug\net10.0\DAL.runtimeconfig.json
+D:\Adv Web tech\Final Asp project\Hostel Management System\DAL\obj\Debug\net10.0\DAL.csproj.AssemblyReference.cache
+D:\Adv Web tech\Final Asp project\Hostel Management System\DAL\obj\Debug\net10.0\DAL.genruntimeconfig.cache

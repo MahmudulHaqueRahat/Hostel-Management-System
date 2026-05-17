@@ -1,0 +1,47 @@
+﻿@model BLL.DTOs.ResidentDTO
+
+@{
+    ViewData["Title"] = "Complete Your Profile";
+}
+
+<div class="container mt-5">
+    <div class="alert alert-warning shadow-sm">
+        <h5 class="alert-heading">Welcome!</h5>
+        <p class="mb-0">Please complete your emergency contact details before accessing your dashboard.</p>
+    </div>
+
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Resident Details</h4>
+        </div>
+        <div class="card-body">
+            <form asp-action="Profile" method="post">
+                <div class="mb-3">
+                    <label asp-for="GuardianName" class="form-label fw-bold">Guardian's Full Name</label>
+                    <input asp-for="GuardianName" class="form-control" />
+                    <span asp-validation-for="GuardianName" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="GuardianPhone" class="form-label fw-bold">Guardian's Phone</label>
+                    <input asp-for="GuardianPhone" class="form-control" />
+                    <span asp-validation-for="GuardianPhone" class="text-danger"></span>
+                </div>
+
+                <div class="mb-4">
+                    <label asp-for="Address" class="form-label fw-bold">Permanent Address</label>
+                    <textarea asp-for="Address" class="form-control" rows="3"></textarea>
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn btn-success">Save Profile</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,15 @@
+D:\Adv Web tech\Final Asp project\Hostel Management System\BLL\bin\Debug\net10.0\BLL.deps.json
+D:\Adv Web tech\Final Asp project\Hostel Management System\BLL\bin\Debug\net10.0\BLL.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\BLL\bin\Debug\net10.0\BLL.pdb
+D:\Adv Web tech\Final Asp project\Hostel Management System\BLL\bin\Debug\net10.0\DAL.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\BLL\bin\Debug\net10.0\DAL.pdb
+D:\Adv Web tech\Final Asp project\Hostel Management System\BLL\obj\Debug\net10.0\BLL.csproj.AssemblyReference.cache
+D:\Adv Web tech\Final Asp project\Hostel Management System\BLL\obj\Debug\net10.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Adv Web tech\Final Asp project\Hostel Management System\BLL\obj\Debug\net10.0\BLL.AssemblyInfoInputs.cache
+D:\Adv Web tech\Final Asp project\Hostel Management System\BLL\obj\Debug\net10.0\BLL.AssemblyInfo.cs
+D:\Adv Web tech\Final Asp project\Hostel Management System\BLL\obj\Debug\net10.0\BLL.csproj.CoreCompileInputs.cache
+D:\Adv Web tech\Final Asp project\Hostel Management System\BLL\obj\Debug\net10.0\BLL.csproj.Up2Date
+D:\Adv Web tech\Final Asp project\Hostel Management System\BLL\obj\Debug\net10.0\BLL.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\BLL\obj\Debug\net10.0\refint\BLL.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\BLL\obj\Debug\net10.0\BLL.pdb
+D:\Adv Web tech\Final Asp project\Hostel Management System\BLL\obj\Debug\net10.0\ref\BLL.dll

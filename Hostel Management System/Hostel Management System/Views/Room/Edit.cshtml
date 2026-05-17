@@ -1,0 +1,80 @@
+﻿@model BLL.DTOs.RoomDTO
+
+@{
+    ViewData["Title"] = "Edit Room";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm">
+                <div class="card-header bg-warning text-dark">
+                    <h4 class="mb-0">Edit Room: @Model.RoomNumber</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Edit" method="post">
+
+                        <input type="hidden" asp-for="RoomId" />
+
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label asp-for="RoomNumber" class="form-label text-muted fw-bold">Room Number</label>
+                                <input asp-for="RoomNumber" class="form-control" />
+                                <span asp-validation-for="RoomNumber" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <label asp-for="FloorNumber" class="form-label text-muted fw-bold">Floor</label>
+                                <input asp-for="FloorNumber" class="form-control" type="number" />
+                                <span asp-validation-for="FloorNumber" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label asp-for="Capacity" class="form-label text-muted fw-bold">Capacity</label>
+                                <input asp-for="Capacity" class="form-control" type="number" />
+                                <span asp-validation-for="Capacity" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <label asp-for="OccupiedBeds" class="form-label text-muted fw-bold">Occupied Beds</label>
+                                <input asp-for="OccupiedBeds" class="form-control" type="number" />
+                                <span asp-validation-for="OccupiedBeds" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row mb-4">
+                            <div class="col-md-6">
+                                <label asp-for="MonthlyRent" class="form-label text-muted fw-bold">Monthly Rent ($)</label>
+                                <input asp-for="MonthlyRent" class="form-control" type="number" step="0.01" />
+                                <span asp-validation-for="MonthlyRent" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <label asp-for="Status" class="form-label text-muted fw-bold">Status</label>
+                                <select asp-for="Status" class="form-select">
+                                    <option value="Available">Available</option>
+                                    <option value="Full">Full</option>
+                                    <option value="Maintenance">Maintenance</option>
+                                </select>
+                                <span asp-validation-for="Status" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-between">
+                            <a asp-controller="Admin" asp-action="Room" class="btn btn-secondary">Cancel</a>
+                            <button type="submit" class="btn btn-success px-4">Save Changes</button>
+                        </div>
+
+                        <div asp-validation-summary="ModelOnly" class="text-danger mt-3"></div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

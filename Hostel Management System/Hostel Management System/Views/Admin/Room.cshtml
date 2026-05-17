@@ -1,0 +1,103 @@
+﻿@model IEnumerable<BLL.DTOs.RoomDTO>
+
+@{
+    ViewData["Title"] = "Room Dashboard";
+}
+
+<div class="d-flex justify-content-between align-items-center bg-light p-3 mb-4 rounded shadow-sm">
+    <div>
+        <a asp-controller="Admin" asp-action="Profile" class="btn btn-secondary">Profile</a>
+    </div>
+
+    <!-- Updated Navigation Links -->
+    <div class="text-center">
+        <a asp-controller="Admin" asp-action="Dashboard" class="btn btn-outline-primary mx-2">Users</a>
+        <a asp-controller="Admin" asp-action="Room" class="btn btn-primary mx-2">Rooms</a>
+        <a href="#" class="btn btn-outline-primary mx-2">Meals</a>
+    </div>
+
+    <div>
+        <a asp-controller="Account" asp-action="Logout" class="btn btn-danger">Logout</a>
+    </div>
+</div>
+
+<div>
+
+    <div>
+        <form method="get" asp-action="Room" asp-controller="Admin" class="mb-3">
+            <div class="d-flex justify-content-between align-items-center pt-2">
+
+                <div>
+                    <a asp-controller="Admin" asp-action="RoomRequest" class="btn btn-primary">Room Requests</a>
+                </div>
+
+                <div class="d-flex gap-2" style="width: 500px;">
+                    <input type="text" name="search" value="@ViewBag.Search" class="form-control border border-black" placeholder="Search by RoomNumber, Capacity or Rent" />
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </div>
+
+            </div>
+        </form>
+
+    </div>
+
+</div>
+    <!-- Rooms Table -->
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>Room Number</th>
+                    <th>Floor</th>
+                    <th>Capacity</th>
+                    <th>Occupied Beds</th>
+                    <th>Rent (Monthly)</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Any())
+                {
+                    foreach (var room in Model)
+                    {
+                        <tr>
+                            <td><strong>@room.RoomNumber</strong></td>
+                            <td>@room.FloorNumber</td>
+                            <td>@room.Capacity</td>
+                            <td>@(room.OccupiedBeds ?? 0)</td>
+                            <td>$@room.MonthlyRent</td>
+                            <td>
+                                <!-- Color coding the status for better visuals -->
+                                @if (room.Status == "Available")
+                                {
+                                    <span class="badge bg-success">@room.Status</span>
+                                }
+                                else if (room.Status == "Full")
+                                {
+
+                                    <span class="badge bg-danger">@room.Status</span>
+                                }
+                                else
+                                {
+
+                                    <span class="badge bg-warning text-dark">@room.Status</span>
+                                }
+                            </td>
+                            <td>
+                            <a asp-controller="Room" asp-action="Edit" asp-route-id="@room.RoomId" class="btn btn-warning btn-sm">Edit</a>
+                                <a asp-controller="Room" asp-action="Delete" asp-route-id="@room.RoomId" class="btn btn-danger btn-sm">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="7" class="text-center text-muted">No rooms found.</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
