@@ -53,52 +53,7 @@ namespace DAL.Repos
                 .Where(r => r.Status == "Pending")
                 .ToList();
         }
-        //public bool ApproveRoom(int allocationId)
-        //{
-        //    // 1. Find the specific booking
-        //    var approvedBooking = db.RoomAllocations.Find(allocationId);
-        //    if (approvedBooking == null) return false;
 
-        //    // 2. Approve it
-        //    approvedBooking.Status = "Approved";
-        //    approvedBooking.IsActive = true;
-
-        //    // 3. Find and remove any OTHER pending requests this resident made
-        //    var otherPendingBookings = db.RoomAllocations
-        //        .Where(a => a.ResidentId == approvedBooking.ResidentId
-        //                 && a.AllocationId != allocationId
-        //                 && a.Status == "Pending")
-        //        .ToList();
-
-        //    if (otherPendingBookings.Any())
-        //    {
-        //        db.RoomAllocations.RemoveRange(otherPendingBookings);
-        //    }
-
-        //    // 4. Update the Room Occupancy
-        //    var room = db.Rooms.Find(approvedBooking.RoomId);
-        //    if (room != null)
-        //    {
-        //        room.OccupiedBeds = (room.OccupiedBeds ?? 0) + 1;
-
-        //        // If the room just hit max capacity, mark it full
-        //        if (room.OccupiedBeds >= room.Capacity)
-        //        {
-        //            room.Status = "Full";
-        //        }
-        //    }
-
-        //    // 5. Update the Resident Profile
-        //    var resident = db.Residents.Find(approvedBooking.ResidentId);
-        //    if (resident != null)
-        //    {
-        //        resident.Status = "Active";
-        //        resident.CheckInDate = DateOnly.FromDateTime(DateTime.Now);
-        //    }
-
-        //    // 6. Save everything at once
-        //    return db.SaveChanges() > 0;
-        //}
         public bool ApproveRoom(int allocationId)
         {
             var approvedBooking =

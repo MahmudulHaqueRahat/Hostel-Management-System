@@ -11,12 +11,14 @@ namespace Hostel_Management_System.Controllers
         RoomService roomService;
         RoomAllocationService allocationService;
         BillService billService;
-        public AdminController(AdminService adminService, RoomService roomService, RoomAllocationService allocationService, BillService billService)
+        ExpenseService expenseService;
+        public AdminController(AdminService adminService, RoomService roomService, RoomAllocationService allocationService, BillService billService, ExpenseService expenseService)
         {
             this.adminService = adminService;
             this.roomService = roomService;
             this.allocationService = allocationService;
             this.billService = billService;
+            this.expenseService = expenseService;
         }
 
 
@@ -29,7 +31,13 @@ namespace Hostel_Management_System.Controllers
             {
                 return RedirectToAction("Login", "Account");
             }
+            ViewBag.TotalRevenue = billService.GetTotalRevenue();
 
+            ViewBag.TotalDue = billService.GetTotalDue();
+
+            ViewBag.TotalExpense = expenseService.GetTotalExpense();
+
+            ViewBag.TotalProfit = ViewBag.TotalRevenue - ViewBag.TotalExpense;
             var userList = adminService.SearchUsers(search);
             ViewBag.Search = search;
             return View(userList);
@@ -223,6 +231,55 @@ namespace Hostel_Management_System.Controllers
             return RedirectToAction("Bills");
         }
 
+        //admin can manage expenses
+        public ActionResult Expenses()
+        {
+            var data = expenseService.Get();
+
+            return View(data);
+        }
+
+        public ActionResult CreateExpense()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult CreateExpense(ExpenseDTO dto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(dto);
+            }
+
+            dto.ExpenseDate = DateOnly.FromDateTime(DateTime.Now);
+
+            expenseService.Create(dto);
+
+            return RedirectToAction("Expenses");
+        }
+
+        public ActionResult EditExpense(int id)
+        {
+            var data = expenseService.Get(id);
+
+            return View(data);
+        }
+
+        [HttpPost]
+        public ActionResult EditExpense(ExpenseDTO dto)
+        {
+            expenseService.Update(dto);
+
+            return RedirectToAction("Expenses");
+        }
+
+        public ActionResult DeleteExpense(int id)
+        {
+            expenseService.Delete(id);
+
+            return RedirectToAction("Expenses");
+        }
 
     }
 }

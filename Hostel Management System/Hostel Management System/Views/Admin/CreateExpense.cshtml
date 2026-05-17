@@ -1,0 +1,132 @@
+﻿@model BLL.DTOs.ExpenseDTO
+
+<div class="d-flex justify-content-between align-items-center bg-light p-3 mb-4 rounded shadow-sm">
+
+    <div>
+        <a asp-controller="Admin" asp-action="Profile" class="btn btn-secondary">Profile</a>
+    </div>
+
+    <div class="text-center">
+        <a asp-controller="Admin" asp-action="Dashboard" class="btn btn-outline-primary mx-2">Users</a>
+
+        <a asp-controller="Admin" asp-action="Room" class="btn btn-outline-primary mx-2">
+            Rooms
+        </a>
+
+        <a asp-controller="Admin" asp-action="Bills" class="btn btn-outline-primary mx-2">
+            Bills
+        </a>
+
+        <a asp-controller="Admin" asp-action="GenerateBills" class="btn btn-outline-primary">
+            Generate Bills
+        </a>
+
+        <a asp-controller="Admin" asp-action="Expenses" class="btn btn-outline-primary mx-2">
+            Expenses
+        </a>
+    </div>
+
+    <div>
+        <a asp-controller="Account" asp-action="Logout" class="btn btn-danger">
+            Logout
+        </a>
+    </div>
+</div>
+
+<div class="container d-flex justify-content-center mt-4">
+
+    <div class="col-12 col-md-8 col-lg-6">
+
+        <h2 class="text-center mb-4">Add Expense</h2>
+
+        <form method="post" class="shadow-sm p-4 bg-white rounded border">
+
+            <input type="hidden" asp-for="ExpenseId" />
+
+            <div asp-validation-summary="ModelOnly"
+                 class="text-danger mb-3">
+            </div>
+
+            <div class="mb-3">
+
+                <label class="form-label fw-bold">
+                    Title
+                </label>
+
+                <input asp-for="ExpenseTitle"
+                       class="form-control" />
+
+                <span asp-validation-for="ExpenseTitle"
+                      class="text-danger">
+                </span>
+
+            </div>
+
+            <div class="mb-3">
+
+                <label class="form-label fw-bold">
+                    Category
+                </label>
+
+                <input asp-for="ExpenseCategory"
+                       class="form-control" />
+
+                <span asp-validation-for="ExpenseCategory"
+                      class="text-danger">
+                </span>
+
+            </div>
+
+            <div class="mb-3">
+
+                <label class="form-label fw-bold">
+                    Amount
+                </label>
+
+                <input asp-for="Amount"
+                       class="form-control" />
+
+                <span asp-validation-for="Amount"
+                      class="text-danger">
+                </span>
+
+            </div>
+
+            <div class="mb-3">
+
+                <label class="form-label fw-bold">
+                    Description
+                </label>
+
+                <textarea asp-for="Description"
+                          class="form-control"
+                          rows="3">
+                </textarea>
+
+            </div>
+
+            <div class="text-center d-flex flex-column gap-2">
+                <div>
+                    <button type="submit "
+                            class="btn btn-success w-100">
+                        Save Expense
+                    </button>
+                </div>
+                <div>
+                    <a asp-action="Dashboard" class="btn btn-secondary  w-100">Back</a>
+                </div>
+              
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

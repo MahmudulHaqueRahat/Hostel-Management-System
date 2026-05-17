@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace BLL.DTOs
 {
@@ -6,14 +7,17 @@ namespace BLL.DTOs
     {
         public int ExpenseId { get; set; }
 
+        [Required]
         public string ExpenseTitle { get; set; }
 
+        [Required]
         public string ExpenseCategory { get; set; }
 
+        [Required]
         public decimal Amount { get; set; }
 
-        public DateTime? ExpenseDate { get; set; }
+        public DateOnly? ExpenseDate { get; set; }
 
-        public string Description { get; set; }
+        public string? Description { get; set; }
     }
 }

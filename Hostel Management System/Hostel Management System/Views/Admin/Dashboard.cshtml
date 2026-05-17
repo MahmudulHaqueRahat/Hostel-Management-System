@@ -17,6 +17,9 @@
         <a asp-controller="Admin"asp-action="GenerateBills" class="btn btn-outline-primary">
             Generate Bills
         </a>
+        <a asp-controller="Admin"asp-action="Expenses"class="btn btn-outline-primary mx-2">
+            Expenses
+        </a>
 
     </div>
 
@@ -30,7 +33,37 @@
         <input type="text" id="searchInput"class="form-control border border-black" placeholder="Search users..." />
     </div>
 </div> *@
-
+            <div class="row mt-4">
+            
+                <div class="col-md-3">
+                    <div class="card p-3">
+                        <h5>Total Revenue</h5>
+                        <h3>@ViewBag.TotalRevenue</h3>
+                    </div>
+                </div>
+            
+                <div class="col-md-3">
+                    <div class="card p-3">
+                        <h5>Total Due</h5>
+                        <h3>@ViewBag.TotalDue</h3>
+                    </div>
+                </div>
+            
+                <div class="col-md-3">
+                    <div class="card p-3">
+                        <h5>Total Expenses</h5>
+                        <h3>@ViewBag.TotalExpense</h3>
+                    </div>
+                </div>
+            
+                <div class="col-md-3">
+                    <div class="card p-3">
+                        <h5>Profit</h5>
+                        <h3>@ViewBag.TotalProfit</h3>
+                    </div>
+                </div>
+            
+            </div>
 
         <form method="get" asp-action="Dashboard" asp-controller="Admin" class="mb-3 ">
 
@@ -100,24 +133,4 @@
         </table>
     </div>
 </div>
-@* <script>
-    document.getElementById("searchInput").addEventListener("keyup", function () {
-
-        let filter = this.value.toLowerCase();
-
-        let rows = document.querySelectorAll("#userTable tr");
-
-        rows.forEach(function (row) {
-
-            let text = row.innerText.toLowerCase();
-
-            if (text.includes(filter)) {
-                row.style.display = "";
-            }
-            else {
-                row.style.display = "none";
-            }
-
-        });
-    });
-</script> *@
+ 

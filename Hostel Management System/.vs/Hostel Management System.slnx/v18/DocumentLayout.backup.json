@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\views\\admin\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\views\\admin\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\views\\admin\\createexpense.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\views\\admin\\createexpense.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\views\\admin\\editexpense.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\views\\admin\\editexpense.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\views\\admin\\roomrequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\views\\admin\\roomrequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,60 +23,48 @@
       "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\views\\admin\\room.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\views\\admin\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\views\\admin\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\views\\admin\\generatebills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\views\\admin\\generatebills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\views\\admin\\expenses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\views\\admin\\expenses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\views\\admin\\bills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\views\\admin\\bills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\views\\admin\\bills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\views\\admin\\bills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|d:\\adv web tech\\final asp project\\hostel management system\\bll\\services\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\services\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|d:\\adv web tech\\final asp project\\hostel management system\\bll\\dtos\\expensedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\expensedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|d:\\adv web tech\\final asp project\\hostel management system\\dal\\repos\\expenserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\expenserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|d:\\adv web tech\\final asp project\\hostel management system\\dal\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|d:\\adv web tech\\final asp project\\hostel management system\\dal\\repos\\roomrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\roomrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|d:\\adv web tech\\final asp project\\hostel management system\\dal\\repos\\billrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\billrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\views\\resident\\bills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\views\\resident\\bills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\views\\resident\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\views\\resident\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|d:\\adv web tech\\final asp project\\hostel management system\\bll\\dtos\\billdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\billdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|d:\\adv web tech\\final asp project\\hostel management system\\bll\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\controllers\\residentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\controllers\\residentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|d:\\adv web tech\\final asp project\\hostel management system\\dal\\repos\\roomallocationrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,12 +75,56 @@
       "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\residentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|d:\\adv web tech\\final asp project\\hostel management system\\dal\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|d:\\adv web tech\\final asp project\\hostel management system\\dal\\repos\\roomrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\roomrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|d:\\adv web tech\\final asp project\\hostel management system\\bll\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|d:\\adv web tech\\final asp project\\hostel management system\\bll\\services\\expenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\services\\expenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|d:\\adv web tech\\final asp project\\hostel management system\\bll\\services\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\services\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\controllers\\residentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\controllers\\residentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|d:\\adv web tech\\final asp project\\hostel management system\\bll\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|d:\\adv web tech\\final asp project\\hostel management system\\bll\\dtos\\billdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\billdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\views\\resident\\bills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\views\\resident\\bills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\views\\resident\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\views\\resident\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|d:\\adv web tech\\final asp project\\hostel management system\\bll\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -97,14 +141,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|d:\\adv web tech\\final asp project\\hostel management system\\bll\\dtos\\residentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\residentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|d:\\adv web tech\\final asp project\\hostel management system\\bll\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\views\\resident\\bookroom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -147,20 +183,8 @@
       "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\services\\residentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|solutionrelative:hostel management system\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{284C9504-E325-3460-C209-339948F3A18E}|Hostel Management System\\Hostel Management System.csproj|d:\\adv web tech\\final asp project\\hostel management system\\hostel management system\\hostel management system.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -194,37 +218,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 41,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "EditExpense.cshtml",
+              "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Admin\\EditExpense.cshtml",
+              "RelativeDocumentMoniker": "Hostel Management System\\Views\\Admin\\EditExpense.cshtml",
+              "ToolTip": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Admin\\EditExpense.cshtml",
+              "RelativeToolTip": "Hostel Management System\\Views\\Admin\\EditExpense.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T19:44:04.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateExpense.cshtml",
+              "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Admin\\CreateExpense.cshtml",
+              "RelativeDocumentMoniker": "Hostel Management System\\Views\\Admin\\CreateExpense.cshtml",
+              "ToolTip": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Admin\\CreateExpense.cshtml",
+              "RelativeToolTip": "Hostel Management System\\Views\\Admin\\CreateExpense.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T19:43:40.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Expenses.cshtml",
+              "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Admin\\Expenses.cshtml",
+              "RelativeDocumentMoniker": "Hostel Management System\\Views\\Admin\\Expenses.cshtml",
+              "ToolTip": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Admin\\Expenses.cshtml",
+              "RelativeToolTip": "Hostel Management System\\Views\\Admin\\Expenses.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T19:43:17.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ExpenseService.cs",
+              "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\BLL\\Services\\ExpenseService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\ExpenseService.cs",
+              "ToolTip": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\BLL\\Services\\ExpenseService.cs",
+              "RelativeToolTip": "BLL\\Services\\ExpenseService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowDAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T19:40:47.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ExpenseRepo.cs",
+              "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\DAL\\Repos\\ExpenseRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\ExpenseRepo.cs",
+              "ToolTip": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\DAL\\Repos\\ExpenseRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\ExpenseRepo.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwB8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T19:40:21.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ExpenseDTO.cs",
+              "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\BLL\\DTOs\\ExpenseDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\ExpenseDTO.cs",
+              "ToolTip": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\BLL\\DTOs\\ExpenseDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\ExpenseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T19:37:35.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Bills.cshtml",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Admin\\Bills.cshtml",
               "RelativeDocumentMoniker": "Hostel Management System\\Views\\Admin\\Bills.cshtml",
               "ToolTip": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Admin\\Bills.cshtml",
               "RelativeToolTip": "Hostel Management System\\Views\\Admin\\Bills.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-17T18:04:01.085Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "GenerateBills.cshtml",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Admin\\GenerateBills.cshtml",
               "RelativeDocumentMoniker": "Hostel Management System\\Views\\Admin\\GenerateBills.cshtml",
               "ToolTip": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Admin\\GenerateBills.cshtml",
               "RelativeToolTip": "Hostel Management System\\Views\\Admin\\GenerateBills.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-17T17:27:23.669Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 29,
               "Title": "Bills.cshtml",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Resident\\Bills.cshtml",
               "RelativeDocumentMoniker": "Hostel Management System\\Views\\Resident\\Bills.cshtml",
@@ -232,51 +334,49 @@
               "RelativeToolTip": "Hostel Management System\\Views\\Resident\\Bills.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-17T16:57:33.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T16:57:33.094Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 21,
               "Title": "BillService.cs",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\BLL\\Services\\BillService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\BillService.cs",
               "ToolTip": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\BLL\\Services\\BillService.cs",
               "RelativeToolTip": "BLL\\Services\\BillService.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAIwEoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-17T16:42:36.498Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "BillRepo.cs",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\DAL\\Repos\\BillRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Repos\\BillRepo.cs",
               "ToolTip": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\DAL\\Repos\\BillRepo.cs",
               "RelativeToolTip": "DAL\\Repos\\BillRepo.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowDIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-17T16:41:44.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 28,
               "Title": "BillDTO.cs",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\BLL\\DTOs\\BillDTO.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\BillDTO.cs",
               "ToolTip": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\BLL\\DTOs\\BillDTO.cs",
               "RelativeToolTip": "BLL\\DTOs\\BillDTO.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAADwvx4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T16:40:05.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T16:40:05.303Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "RoomRequest.cshtml",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Admin\\RoomRequest.cshtml",
               "RelativeDocumentMoniker": "Hostel Management System\\Views\\Admin\\RoomRequest.cshtml",
@@ -289,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 37,
               "Title": "ProfileDetails.cshtml",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Resident\\ProfileDetails.cshtml",
               "RelativeDocumentMoniker": "Hostel Management System\\Views\\Resident\\ProfileDetails.cshtml",
@@ -297,25 +397,24 @@
               "RelativeToolTip": "Hostel Management System\\Views\\Resident\\ProfileDetails.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-17T11:35:17.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T11:35:17.668Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "ResidentController.cs",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Controllers\\ResidentController.cs",
               "RelativeDocumentMoniker": "Hostel Management System\\Controllers\\ResidentController.cs",
               "ToolTip": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Controllers\\ResidentController.cs",
               "RelativeToolTip": "Hostel Management System\\Controllers\\ResidentController.cs",
-              "ViewState": "AgIAALMAAAAAAAAAAAAiwMkAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAJEAAAAAAAAAAADwv8kAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-17T06:33:10.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 35,
               "Title": "BookRoom.cshtml",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Resident\\BookRoom.cshtml",
               "RelativeDocumentMoniker": "Hostel Management System\\Views\\Resident\\BookRoom.cshtml",
@@ -323,12 +422,11 @@
               "RelativeToolTip": "Hostel Management System\\Views\\Resident\\BookRoom.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-17T08:45:41.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T08:45:41.479Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 30,
               "Title": "Dashboard.cshtml",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Resident\\Dashboard.cshtml",
               "RelativeDocumentMoniker": "Hostel Management System\\Views\\Resident\\Dashboard.cshtml",
@@ -336,25 +434,24 @@
               "RelativeToolTip": "Hostel Management System\\Views\\Resident\\Dashboard.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-17T06:48:42.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T06:48:42.038Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Dashboard.cshtml",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Admin\\Dashboard.cshtml",
               "RelativeDocumentMoniker": "Hostel Management System\\Views\\Admin\\Dashboard.cshtml",
               "ToolTip": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Admin\\Dashboard.cshtml",
               "RelativeToolTip": "Hostel Management System\\Views\\Admin\\Dashboard.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-16T17:11:58.876Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 38,
               "Title": "Profile.cshtml",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Resident\\Profile.cshtml",
               "RelativeDocumentMoniker": "Hostel Management System\\Views\\Resident\\Profile.cshtml",
@@ -362,25 +459,24 @@
               "RelativeToolTip": "Hostel Management System\\Views\\Resident\\Profile.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-17T07:48:03.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T07:48:03.256Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 13,
               "Title": "UserRepo.cs",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\DAL\\Repos\\UserRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Repos\\UserRepo.cs",
               "ToolTip": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\DAL\\Repos\\UserRepo.cs",
               "RelativeToolTip": "DAL\\Repos\\UserRepo.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAjwFsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAWwFsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T04:46:09.71Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 43,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\BLL\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\UserService.cs",
@@ -388,12 +484,11 @@
               "RelativeToolTip": "BLL\\Services\\UserService.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAwwBYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T04:45:13.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-15T04:45:13.892Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 36,
               "Title": "AdminService.cs",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\BLL\\Services\\AdminService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\AdminService.cs",
@@ -401,25 +496,24 @@
               "RelativeToolTip": "BLL\\Services\\AdminService.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T17:24:03.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-16T17:24:03.279Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "AdminController.cs",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Hostel Management System\\Controllers\\AdminController.cs",
               "ToolTip": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Controllers\\AdminController.cs",
               "RelativeToolTip": "Hostel Management System\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAMgAAAAAAAAAAAAswNoAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAqwP4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-16T17:12:39.569Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 39,
               "Title": "PendingRooms.cshtml",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Resident\\PendingRooms.cshtml",
               "RelativeDocumentMoniker": "Hostel Management System\\Views\\Resident\\PendingRooms.cshtml",
@@ -427,12 +521,11 @@
               "RelativeToolTip": "Hostel Management System\\Views\\Resident\\PendingRooms.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-17T09:32:16.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T09:32:16.409Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 42,
               "Title": "RoomAllocationService.cs",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\BLL\\Services\\RoomAllocationService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\RoomAllocationService.cs",
@@ -440,8 +533,7 @@
               "RelativeToolTip": "BLL\\Services\\RoomAllocationService.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAIAwwHYAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T08:44:53.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T08:44:53.17Z"
             },
             {
               "$type": "Document",
@@ -451,27 +543,27 @@
               "RelativeDocumentMoniker": "DAL\\Repos\\RoomAllocationRepo.cs",
               "ToolTip": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\DAL\\Repos\\RoomAllocationRepo.cs",
               "RelativeToolTip": "DAL\\Repos\\RoomAllocationRepo.cs",
-              "ViewState": "AgIAAKQAAAAAAAAAAAAAALIAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-17T08:43:58.535Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "MapperConfig.cs",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\BLL\\MapperConfig.cs",
               "RelativeDocumentMoniker": "BLL\\MapperConfig.cs",
               "ToolTip": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\BLL\\MapperConfig.cs",
               "RelativeToolTip": "BLL\\MapperConfig.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAzwBAAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T05:15:40.877Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 32,
               "Title": "RoomDTO.cs",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\BLL\\DTOs\\RoomDTO.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\RoomDTO.cs",
@@ -479,12 +571,11 @@
               "RelativeToolTip": "BLL\\DTOs\\RoomDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T03:35:24.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T03:35:24.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 44,
               "Title": "ResidentService.cs",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\BLL\\Services\\ResidentService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\ResidentService.cs",
@@ -492,12 +583,11 @@
               "RelativeToolTip": "BLL\\Services\\ResidentService.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T07:28:32.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T07:28:32.459Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 33,
               "Title": "RoomAllocationDTO.cs",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\BLL\\DTOs\\RoomAllocationDTO.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\RoomAllocationDTO.cs",
@@ -505,12 +595,11 @@
               "RelativeToolTip": "BLL\\DTOs\\RoomAllocationDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T08:41:20.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T08:41:20.834Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 40,
               "Title": "RoomService.cs",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\BLL\\Services\\RoomService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\RoomService.cs",
@@ -518,8 +607,7 @@
               "RelativeToolTip": "BLL\\Services\\RoomService.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAowBIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T03:35:47.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T03:35:47.007Z"
             },
             {
               "$type": "Document",
@@ -529,65 +617,66 @@
               "RelativeDocumentMoniker": "DAL\\Repos\\ResidentRepo.cs",
               "ToolTip": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\DAL\\Repos\\ResidentRepo.cs",
               "RelativeToolTip": "DAL\\Repos\\ResidentRepo.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowAoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-17T07:34:03.605Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 14,
               "Title": "RoomRepo.cs",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\DAL\\Repos\\RoomRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Repos\\RoomRepo.cs",
               "ToolTip": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\DAL\\Repos\\RoomRepo.cs",
               "RelativeToolTip": "DAL\\Repos\\RoomRepo.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAmwDYAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAmwDYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-17T03:38:05.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Room.cshtml",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Admin\\Room.cshtml",
               "RelativeDocumentMoniker": "Hostel Management System\\Views\\Admin\\Room.cshtml",
               "ToolTip": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Admin\\Room.cshtml",
               "RelativeToolTip": "Hostel Management System\\Views\\Admin\\Room.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-17T03:40:16.414Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 24,
               "Title": "RoomController.cs",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Controllers\\RoomController.cs",
               "RelativeDocumentMoniker": "Hostel Management System\\Controllers\\RoomController.cs",
               "ToolTip": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Controllers\\RoomController.cs",
               "RelativeToolTip": "Hostel Management System\\Controllers\\RoomController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAIwEkAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowEkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T03:40:37.179Z"
+              "WhenOpened": "2026-05-17T03:40:37.179Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Admin\\Edit.cshtml",
               "RelativeDocumentMoniker": "Hostel Management System\\Views\\Admin\\Edit.cshtml",
               "ToolTip": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Admin\\Edit.cshtml",
               "RelativeToolTip": "Hostel Management System\\Views\\Admin\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-16T18:30:46.206Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 41,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Room\\Edit.cshtml",
               "RelativeDocumentMoniker": "Hostel Management System\\Views\\Room\\Edit.cshtml",
@@ -595,12 +684,11 @@
               "RelativeToolTip": "Hostel Management System\\Views\\Room\\Edit.cshtml",
               "ViewState": "AgIAAC0AAAAAAAAAAAAAwEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-17T05:15:11.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T05:15:11.863Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 46,
               "Title": "Hostel Management System.csproj",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Hostel Management System.csproj",
               "RelativeDocumentMoniker": "Hostel Management System\\Hostel Management System.csproj",
@@ -612,19 +700,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 18,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Hostel Management System\\Controllers\\AccountController.cs",
               "ToolTip": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Hostel Management System\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAcwGMAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAcwGMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T05:31:15.705Z"
+              "WhenOpened": "2026-05-15T05:31:15.705Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 34,
               "Title": "ResidentDTO.cs",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\BLL\\DTOs\\ResidentDTO.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\ResidentDTO.cs",
@@ -632,38 +721,37 @@
               "RelativeToolTip": "BLL\\DTOs\\ResidentDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T07:27:37.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T07:27:37.923Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 25,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Program.cs",
               "RelativeDocumentMoniker": "Hostel Management System\\Program.cs",
               "ToolTip": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Program.cs",
               "RelativeToolTip": "Hostel Management System\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T04:39:01.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Profile.cshtml",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Admin\\Profile.cshtml",
               "RelativeDocumentMoniker": "Hostel Management System\\Views\\Admin\\Profile.cshtml",
               "ToolTip": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Admin\\Profile.cshtml",
               "RelativeToolTip": "Hostel Management System\\Views\\Admin\\Profile.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-16T19:25:03.791Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 31,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\BLL\\DTOs\\UserDTO.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\UserDTO.cs",
@@ -671,24 +759,24 @@
               "RelativeToolTip": "BLL\\DTOs\\UserDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T04:06:28.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-15T04:06:28.983Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 26,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Hostel Management System\\Views\\Account\\Login.cshtml",
               "ToolTip": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Account\\Login.cshtml",
               "RelativeToolTip": "Hostel Management System\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-16T14:13:51.197Z"
+              "WhenOpened": "2026-05-16T14:13:51.197Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 22,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Hostel Management System\\Controllers\\HomeController.cs",
@@ -701,7 +789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 45,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Hostel Management System\\Views\\Account\\Register.cshtml",
@@ -713,7 +801,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 47,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Hostel Management System\\Views\\Home\\Index.cshtml",
@@ -725,7 +813,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 48,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\Hostel Management System\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Hostel Management System\\Views\\Shared\\_Layout.cshtml",
@@ -737,7 +825,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\BLL\\DTOs\\LoginDTO.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\LoginDTO.cs",
@@ -745,12 +833,11 @@
               "RelativeToolTip": "BLL\\DTOs\\LoginDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T14:53:42.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-16T14:53:42.924Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 49,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\BLL\\Class1.cs",
               "RelativeDocumentMoniker": "BLL\\Class1.cs",
@@ -762,7 +849,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 51,
               "Title": "BLL.csproj",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\BLL\\BLL.csproj",
               "RelativeDocumentMoniker": "BLL\\BLL.csproj",
@@ -774,7 +861,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 50,
               "Title": "GetMd5.cs",
               "DocumentMoniker": "D:\\Adv Web tech\\Final Asp project\\Hostel Management System\\BLL\\Helpers\\GetMd5.cs",
               "RelativeDocumentMoniker": "BLL\\Helpers\\GetMd5.cs",

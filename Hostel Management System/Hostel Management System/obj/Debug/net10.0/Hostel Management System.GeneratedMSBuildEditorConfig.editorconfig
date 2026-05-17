@@ -43,12 +43,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQmlsbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Adv Web tech/Final Asp project/Hostel Management System/Hostel Management System/Views/Admin/CreateExpense.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlRXhwZW5zZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Adv Web tech/Final Asp project/Hostel Management System/Hostel Management System/Views/Admin/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Adv Web tech/Final Asp project/Hostel Management System/Hostel Management System/Views/Admin/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Adv Web tech/Final Asp project/Hostel Management System/Hostel Management System/Views/Admin/EditExpense.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdEV4cGVuc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Adv Web tech/Final Asp project/Hostel Management System/Hostel Management System/Views/Admin/Expenses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRXhwZW5zZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Adv Web tech/Final Asp project/Hostel Management System/Hostel Management System/Views/Admin/GenerateBills.cshtml]

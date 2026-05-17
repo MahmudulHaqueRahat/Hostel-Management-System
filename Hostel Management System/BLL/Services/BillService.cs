@@ -82,5 +82,17 @@ namespace BLL.Services
             bill.Status = "Paid";
             return repo.Update(bill);
         }
+
+        public decimal GetTotalRevenue()
+        {
+            return repo.GetAll()
+                .Sum(b => b.TotalAmount);
+        }
+
+        public decimal GetTotalDue()
+        {
+            return repo.GetAll()
+                .Sum(b => b.DueAmount);
+        }
     }
 }
