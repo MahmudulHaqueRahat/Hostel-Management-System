@@ -228,3 +228,4 @@ D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management Sys
 D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\bin\Debug\net10.0\AutoMapper.dll
 D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+D:\Adv Web tech\Final Asp project\Hostel Management System\Hostel Management System\obj\Debug\net10.0\Hostel Management System.sourcelink.json

@@ -53,50 +53,129 @@ namespace DAL.Repos
                 .Where(r => r.Status == "Pending")
                 .ToList();
         }
+        //public bool ApproveRoom(int allocationId)
+        //{
+        //    // 1. Find the specific booking
+        //    var approvedBooking = db.RoomAllocations.Find(allocationId);
+        //    if (approvedBooking == null) return false;
+
+        //    // 2. Approve it
+        //    approvedBooking.Status = "Approved";
+        //    approvedBooking.IsActive = true;
+
+        //    // 3. Find and remove any OTHER pending requests this resident made
+        //    var otherPendingBookings = db.RoomAllocations
+        //        .Where(a => a.ResidentId == approvedBooking.ResidentId
+        //                 && a.AllocationId != allocationId
+        //                 && a.Status == "Pending")
+        //        .ToList();
+
+        //    if (otherPendingBookings.Any())
+        //    {
+        //        db.RoomAllocations.RemoveRange(otherPendingBookings);
+        //    }
+
+        //    // 4. Update the Room Occupancy
+        //    var room = db.Rooms.Find(approvedBooking.RoomId);
+        //    if (room != null)
+        //    {
+        //        room.OccupiedBeds = (room.OccupiedBeds ?? 0) + 1;
+
+        //        // If the room just hit max capacity, mark it full
+        //        if (room.OccupiedBeds >= room.Capacity)
+        //        {
+        //            room.Status = "Full";
+        //        }
+        //    }
+
+        //    // 5. Update the Resident Profile
+        //    var resident = db.Residents.Find(approvedBooking.ResidentId);
+        //    if (resident != null)
+        //    {
+        //        resident.Status = "Active";
+        //        resident.CheckInDate = DateOnly.FromDateTime(DateTime.Now);
+        //    }
+
+        //    // 6. Save everything at once
+        //    return db.SaveChanges() > 0;
+        //}
         public bool ApproveRoom(int allocationId)
         {
-            // 1. Find the specific booking
-            var approvedBooking = db.RoomAllocations.Find(allocationId);
-            if (approvedBooking == null) return false;
+            var approvedBooking =
+                db.RoomAllocations.Find(allocationId);
 
-            // 2. Approve it
+            if (approvedBooking == null)
+            {
+                return false;
+            }
+
+            // prevent double approval
+            if (approvedBooking.Status == "Approved")
+            {
+                return false;
+            }
+
+            var room = db.Rooms.Find(approvedBooking.RoomId);
+
+            if (room == null)
+            {
+                return false;
+            }
+
+            // prevent overbooking
+            if ((room.OccupiedBeds ?? 0) >= room.Capacity)
+            {
+                room.Status = "Full";
+                db.SaveChanges();
+
+                return false;
+            }
+
+            // approve booking
             approvedBooking.Status = "Approved";
             approvedBooking.IsActive = true;
 
-            // 3. Find and remove any OTHER pending requests this resident made
+            // reject other pending bookings
             var otherPendingBookings = db.RoomAllocations
-                .Where(a => a.ResidentId == approvedBooking.ResidentId
-                         && a.AllocationId != allocationId
-                         && a.Status == "Pending")
+                .Where(a =>
+                    a.ResidentId == approvedBooking.ResidentId &&
+                    a.AllocationId != allocationId &&
+                    a.Status == "Pending")
                 .ToList();
 
-            if (otherPendingBookings.Any())
+            foreach (var booking in otherPendingBookings)
             {
-                db.RoomAllocations.RemoveRange(otherPendingBookings);
+                booking.Status = "Rejected";
+                booking.IsActive = false;
             }
 
-            // 4. Update the Room Occupancy
-            var room = db.Rooms.Find(approvedBooking.RoomId);
-            if (room != null)
-            {
-                room.OccupiedBeds = (room.OccupiedBeds ?? 0) + 1;
+            // update occupancy
+            room.OccupiedBeds = (room.OccupiedBeds ?? 0) + 1;
 
-                // If the room just hit max capacity, mark it full
-                if (room.OccupiedBeds >= room.Capacity)
-                {
-                    room.Status = "Full";
-                }
+            // auto status update
+            if (room.OccupiedBeds >= room.Capacity)
+            {
+                room.Status = "Full";
+            }
+            else
+            {
+                room.Status = "Available";
             }
 
-            // 5. Update the Resident Profile
+            // update resident
             var resident = db.Residents.Find(approvedBooking.ResidentId);
+
             if (resident != null)
             {
                 resident.Status = "Active";
-                resident.CheckInDate = DateOnly.FromDateTime(DateTime.Now);
+
+                if (resident.CheckInDate == null)
+                {
+                    resident.CheckInDate =
+                        DateOnly.FromDateTime(DateTime.Now);
+                }
             }
 
-            // 6. Save everything at once
             return db.SaveChanges() > 0;
         }
 
@@ -114,6 +193,23 @@ namespace DAL.Repos
 
 
 
+        //public bool DeletePendingRequest(int residentId, int roomId)
+        //{
+        //    var data = db.RoomAllocations.FirstOrDefault(r =>
+        //        r.ResidentId == residentId &&
+        //        r.RoomId == roomId &&
+        //        r.Status == "Pending");
+
+        //    if (data == null)
+        //    {
+        //        return false;
+        //    }
+
+        //    db.RoomAllocations.Remove(data);
+
+        //    return db.SaveChanges() > 0;
+        //}
+
         public bool DeletePendingRequest(int residentId, int roomId)
         {
             var data = db.RoomAllocations.FirstOrDefault(r =>
@@ -126,7 +222,8 @@ namespace DAL.Repos
                 return false;
             }
 
-            db.RoomAllocations.Remove(data);
+            data.Status = "Cancelled";
+            data.IsActive = false;
 
             return db.SaveChanges() > 0;
         }
@@ -143,7 +240,36 @@ namespace DAL.Repos
                 r.ResidentId == residentId &&
                 r.Status == "Approved");
         }
+        public bool IsRoomAvailable(int roomId)
+        {
+            var room = db.Rooms.Find(roomId);
 
+            if (room == null)
+            {
+                return false;
+            }
+
+            // inactive room
+            if (room.Status == "Inactive")
+            {
+                return false;
+            }
+
+            // room full
+            if ((room.OccupiedBeds ?? 0) >= room.Capacity)
+            {
+                room.Status = "Full";
+                db.SaveChanges();
+
+                return false;
+            }
+
+            // auto-fix status if beds available
+            room.Status = "Available";
+            db.SaveChanges();
+
+            return true;
+        }
 
         public RoomAllocation GetApprovedRoom(int residentId)
         {

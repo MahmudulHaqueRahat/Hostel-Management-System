@@ -44,6 +44,17 @@ namespace DAL.Repos
         public bool Update(Room c)
         {
             var exobj = Get(c.RoomId);
+            if (c.Status != "Inactive")
+            {
+                if ((c.OccupiedBeds ?? 0) >= c.Capacity)
+                {
+                    c.Status = "Full";
+                }
+                else
+                {
+                    c.Status = "Available";
+                }
+            }
             db.Entry(exobj).CurrentValues.SetValues(c);
             return db.SaveChanges() > 0;
         }

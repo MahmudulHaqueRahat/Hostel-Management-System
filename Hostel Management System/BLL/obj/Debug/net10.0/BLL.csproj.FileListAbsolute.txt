@@ -13,3 +13,4 @@ D:\Adv Web tech\Final Asp project\Hostel Management System\BLL\obj\Debug\net10.0
 D:\Adv Web tech\Final Asp project\Hostel Management System\BLL\obj\Debug\net10.0\refint\BLL.dll
 D:\Adv Web tech\Final Asp project\Hostel Management System\BLL\obj\Debug\net10.0\BLL.pdb
 D:\Adv Web tech\Final Asp project\Hostel Management System\BLL\obj\Debug\net10.0\ref\BLL.dll
+D:\Adv Web tech\Final Asp project\Hostel Management System\BLL\obj\Debug\net10.0\BLL.sourcelink.json

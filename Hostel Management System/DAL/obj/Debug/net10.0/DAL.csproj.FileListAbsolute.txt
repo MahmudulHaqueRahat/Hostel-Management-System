@@ -12,3 +12,4 @@ D:\Adv Web tech\Final Asp project\Hostel Management System\DAL\obj\Debug\net10.0
 D:\Adv Web tech\Final Asp project\Hostel Management System\DAL\bin\Debug\net10.0\DAL.runtimeconfig.json
 D:\Adv Web tech\Final Asp project\Hostel Management System\DAL\obj\Debug\net10.0\DAL.csproj.AssemblyReference.cache
 D:\Adv Web tech\Final Asp project\Hostel Management System\DAL\obj\Debug\net10.0\DAL.genruntimeconfig.cache
+D:\Adv Web tech\Final Asp project\Hostel Management System\DAL\obj\Debug\net10.0\DAL.sourcelink.json

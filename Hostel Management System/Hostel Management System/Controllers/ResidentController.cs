@@ -9,16 +9,17 @@ namespace Hostel_Management_System.Controllers
         AdminService adminService;
         ResidentService residentService;
         RoomService roomService;
-
+        BillService billService;
         RoomAllocationService allocationService;
-        public ResidentController(ResidentService residentService, RoomService roomService, RoomAllocationService allocationService,AdminService adminService)
+        public ResidentController(ResidentService residentService, RoomService roomService, RoomAllocationService allocationService, AdminService adminService, BillService billService)
         {
             this.residentService = residentService;
             this.roomService = roomService;
             this.allocationService = allocationService;
             this.adminService = adminService;
+            this.billService = billService;
         }
-       
+
 
         [HttpGet]
         public IActionResult Dashboard()
@@ -93,7 +94,7 @@ namespace Hostel_Management_System.Controllers
 
             int userId = Convert.ToInt32(HttpContext.Session.GetString("UserId"));
 
-            var resident= residentService.GetByUserId(userId);
+            var resident = residentService.GetByUserId(userId);
 
             bool hasApprovedRoom = allocationService.HasApprovedRoom(resident.ResidentId);
 
@@ -111,10 +112,10 @@ namespace Hostel_Management_System.Controllers
             var pendingRoomIds = allocationService.GetPendingRoomIds(resident.ResidentId);
 
             var rooms = roomService.Get()
-                .Where(r =>
-                    r.Status == "Available" &&
-                    !pendingRoomIds.Contains(r.RoomId))
-                .ToList();
+               .Where(r =>
+                   r.Status == "Available" &&
+                   !pendingRoomIds.Contains(r.RoomId))
+               .ToList();
 
             return View(rooms);
         }
@@ -122,10 +123,10 @@ namespace Hostel_Management_System.Controllers
         [HttpGet]
         public IActionResult Book(int roomId)
         {
-            int userId = Convert.ToInt32( HttpContext.Session.GetString("UserId"));
+            int userId = Convert.ToInt32(HttpContext.Session.GetString("UserId"));
 
             var resident = residentService.GetByUserId(userId);
-            allocationService.BookRoom( resident.ResidentId, roomId);
+            allocationService.BookRoom(resident.ResidentId, roomId);
 
             return RedirectToAction("BookRoom");
         }
@@ -139,8 +140,8 @@ namespace Hostel_Management_System.Controllers
 
             var resident = residentService.GetByUserId(userId);
 
-            allocationService.CancelBooking(resident.ResidentId,roomId);
-            
+            allocationService.CancelBooking(resident.ResidentId, roomId);
+
             return RedirectToAction("PendingRooms");
         }
 
@@ -186,6 +187,21 @@ namespace Hostel_Management_System.Controllers
 
             return View(user);
         }
+        [HttpGet]
+        public ActionResult Bills()
+        {
+            int userId = Convert.ToInt32(
+            HttpContext.Session.GetString("UserId"));
+            var resident = residentService
+            .GetByUserId(userId);
+            if (resident == null)
+            {
+                return RedirectToAction("Dashboard");
+            }
+            var bills = billService
+            .GetByResident(resident.ResidentId);
+            return View(bills);
 
+        }
     }
-}
+   }

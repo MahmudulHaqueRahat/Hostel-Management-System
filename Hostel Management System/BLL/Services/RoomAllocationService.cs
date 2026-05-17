@@ -19,12 +19,43 @@ namespace BLL.Services
 
             this.mapper = MapperConfig.GetMapper();
         }
+        //public bool BookRoom(int residentId, int roomId)
+        //{
+        //    bool alreadyRequested =
+        //        repo.HasPendingRequest(residentId, roomId);
+
+        //    if (alreadyRequested)
+        //    {
+        //        return false;
+        //    }
+
+        //    RoomAllocationDTO dto = new RoomAllocationDTO()
+        //    {
+        //        ResidentId = residentId,
+        //        RoomId = roomId,
+        //        AllocationDate = DateOnly.FromDateTime(DateTime.Now),
+        //        IsActive = true,
+        //        Status = "Pending"
+        //    };
+
+        //    var data = mapper.Map<RoomAllocation>(dto);
+
+        //    return repo.Create(data);
+        //}
         public bool BookRoom(int residentId, int roomId)
         {
             bool alreadyRequested =
                 repo.HasPendingRequest(residentId, roomId);
 
             if (alreadyRequested)
+            {
+                return false;
+            }
+
+            // NEW CHECK
+            bool roomAvailable = repo.IsRoomAvailable(roomId);
+
+            if (!roomAvailable)
             {
                 return false;
             }
@@ -42,6 +73,8 @@ namespace BLL.Services
 
             return repo.Create(data);
         }
+
+
         public List<int> GetPendingRoomIds(int residentId)
         {
             return repo.GetPendingRoomIds(residentId);

@@ -10,11 +10,13 @@ namespace Hostel_Management_System.Controllers
         AdminService adminService;
         RoomService roomService;
         RoomAllocationService allocationService;
-        public AdminController(AdminService adminService, RoomService roomService, RoomAllocationService allocationService )
+        BillService billService;
+        public AdminController(AdminService adminService, RoomService roomService, RoomAllocationService allocationService, BillService billService)
         {
             this.adminService = adminService;
             this.roomService = roomService;
             this.allocationService = allocationService;
+            this.billService = billService;
         }
 
 
@@ -193,8 +195,33 @@ namespace Hostel_Management_System.Controllers
             ViewBag.Search = search;
             return View(rooms);
         }
+        public ActionResult GenerateBills()
+        {
+            return View();
+        }
 
+        [HttpPost]
+        public ActionResult GenerateBills(string billingMonth)
+        {
+            billService.GenerateMonthlyBills(billingMonth);
 
+            ViewBag.Message =
+                "Bills Generated Successfully";
+
+            return View();
+        }
+        [HttpGet]
+        public ActionResult Bills()
+        {
+            var data = billService.GetAll();
+            return View(data);
+        }
+        [HttpPost]
+        public ActionResult Bills(int id)
+        {
+            billService.MarkAsPaid(id);
+            return RedirectToAction("Bills");
+        }
 
 
     }

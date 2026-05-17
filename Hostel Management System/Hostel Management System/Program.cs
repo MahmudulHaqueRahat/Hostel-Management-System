@@ -13,11 +13,13 @@ builder.Services.AddScoped<UserRepo>();
 builder.Services.AddScoped<RoomRepo>();
 builder.Services.AddScoped<ResidentRepo>();
 builder.Services.AddScoped<RoomAllocationRepo>();
+builder.Services.AddScoped<BillRepo>();
 builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<AdminService>();
 builder.Services.AddScoped<RoomService>();
 builder.Services.AddScoped<ResidentService>();
 builder.Services.AddScoped<RoomAllocationService>();
+builder.Services.AddScoped<BillService>();
 
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>

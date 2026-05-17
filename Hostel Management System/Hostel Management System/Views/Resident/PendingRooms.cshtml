@@ -1,17 +1,17 @@
 ﻿@model IEnumerable<BLL.DTOs.RoomAllocationDTO>
 
 <div class="d-flex justify-content-between align-items-center bg-light p-3 mb-4 rounded shadow-sm">
-    <div>
+    <div class="w-100">
         <a asp-controller="Resident" asp-action="Dashboard" class="btn btn-primary">Dashboard</a>
     </div>
 
-    <div class="text-center">
+    <div class="w-100 text-center">
         <a asp-controller="Resident" asp-action="BookRoom" class="btn btn-outline-primary mx-2">Book Room</a>
-        <a href="#" class="btn btn-outline-primary mx-2">Meals</a>
+        @* <a href="#" class="btn btn-outline-primary mx-2">Meals</a> *@
         <a href="#" class="btn btn-outline-primary mx-2">Bills & Expenses</a>
     </div>
 
-    <div>
+    <div class="w-100 text-end">
         <a asp-controller="Account" asp-action="Logout" class="btn btn-danger">Logout</a>
     </div>
 </div>

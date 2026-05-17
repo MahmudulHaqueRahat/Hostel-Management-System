@@ -1,0 +1,65 @@
+﻿@model List<BLL.DTOs.BillDTO>
+<div class="d-flex justify-content-between align-items-center bg-light p-3 mb-4 rounded shadow-sm">
+
+    <div>
+        <a asp-controller="Admin" asp-action="Profile" class="btn btn-secondary">Profile</a>
+    </div>
+
+    <div class="text-center">
+        <a asp-controller="Admin" asp-action="Dashboard" class="btn btn-outline-primary mx-2">Users</a>
+        <a asp-controller="Admin" asp-action="Room" class="btn btn-outline-primary mx-2">Rooms</a>
+        <a asp-controller="Admin" asp-action="Bills" class="btn btn-primary mx-2">Bills</a>
+        <a asp-controller="Admin" asp-action="GenerateBills" class="btn btn-outline-primary">
+            Generate Bills
+        </a>
+
+    </div>
+
+    <div>
+        <a asp-controller="Account" asp-action="Logout" class="btn btn-danger">Logout</a>
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    <h2>All Bills</h2>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Resident</th>
+                <th>Month</th>
+                <th>Total</th>
+                <th>Due</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.ResidentName</td>
+                    <td>@item.BillingMonth</td>
+                    <td>@item.TotalAmount</td>
+                    <td>@item.DueAmount</td>
+                    <td>@item.Status</td>
+                    <td>
+                        @if (item.Status != "Paid")
+                        {
+                            <form asp-controller="Admin" asp-action="Bills" asp-route-id="@item.BillId" method="post" style="display:inline;">
+                                <button type="submit" class="btn btn-success btn-sm">
+                                    Mark Paid
+                                </button>
+                            </form>
+                        }
+                        else
+                        {
+                            <button class="btn btn-primary btn-sm" disabled>Paid</button>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
