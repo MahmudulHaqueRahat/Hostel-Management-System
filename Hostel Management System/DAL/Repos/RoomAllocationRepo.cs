@@ -90,6 +90,27 @@ namespace DAL.Repos
             approvedBooking.Status = "Approved";
             approvedBooking.IsActive = true;
 
+            // update resident
+            var resident = db.Residents.Find(approvedBooking.ResidentId);
+
+            if (resident != null)
+            {
+                db.Notifications.Add(new Notification()
+                {
+                    UserId = (int)resident.UserId,
+
+                    Title = "Room Approved",
+
+                    Message = "Your room booking for Room "
+                              + room.RoomNumber +
+                              " has been approved.",
+
+                    IsRead = false,
+
+                    CreatedAt = DateTime.Now
+                });
+            }
+
             // reject other pending bookings
             var otherPendingBookings = db.RoomAllocations
                 .Where(a =>
@@ -102,6 +123,25 @@ namespace DAL.Repos
             {
                 booking.Status = "Rejected";
                 booking.IsActive = false;
+
+                var rejectedResident =
+                    db.Residents.Find(booking.ResidentId);
+
+                if (rejectedResident != null)
+                {
+                    db.Notifications.Add(new Notification()
+                    {
+                        UserId = (int)rejectedResident.UserId,
+
+                        Title = "Booking Rejected",
+
+                        Message = "Your room booking request was rejected.",
+
+                        IsRead = false,
+
+                        CreatedAt = DateTime.Now
+                    });
+                }
             }
 
             // update occupancy
@@ -118,7 +158,7 @@ namespace DAL.Repos
             }
 
             // update resident
-            var resident = db.Residents.Find(approvedBooking.ResidentId);
+            
 
             if (resident != null)
             {
@@ -145,25 +185,6 @@ namespace DAL.Repos
 
             return db.SaveChanges() > 0;
         }
-
-
-
-        //public bool DeletePendingRequest(int residentId, int roomId)
-        //{
-        //    var data = db.RoomAllocations.FirstOrDefault(r =>
-        //        r.ResidentId == residentId &&
-        //        r.RoomId == roomId &&
-        //        r.Status == "Pending");
-
-        //    if (data == null)
-        //    {
-        //        return false;
-        //    }
-
-        //    db.RoomAllocations.Remove(data);
-
-        //    return db.SaveChanges() > 0;
-        //}
 
         public bool DeletePendingRequest(int residentId, int roomId)
         {

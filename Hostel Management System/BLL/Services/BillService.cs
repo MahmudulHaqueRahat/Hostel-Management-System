@@ -7,11 +7,14 @@ namespace BLL.Services
     public class BillService
     {
         BillRepo repo;
+        NotificationRepo notificationRepo;
         Mapper mapper;
-        public BillService(BillRepo repo)
+        public BillService(BillRepo repo, NotificationRepo notificationRepo )
         {
             this.repo = repo;
+             
             this.mapper = MapperConfig.GetMapper();
+            this.notificationRepo = notificationRepo;
         }
         public List<BillDTO> GetAll()
         {
@@ -68,6 +71,24 @@ namespace BLL.Services
                     Status = "Unpaid"
                 };
                 repo.Create(bill);
+               
+
+                notificationRepo.Create(new Notification()
+                {
+                    UserId = (int)resident.UserId,
+
+                    Title = "Monthly Bill Generated",
+
+                    Message = "Your bill for "
+                              + month +
+                              " has been generated. Total Due: "
+                              + total,
+
+                    IsRead = false,
+
+                    CreatedAt = DateTime.Now
+                });
+
             }
         }
         // SIMPLE PAYMENT UPDATE
@@ -80,6 +101,26 @@ namespace BLL.Services
             }
             bill.DueAmount = 0;
             bill.Status = "Paid";
+             
+
+            var resident =
+                repo.GetResidentByBill(billId);
+
+            if (resident != null)
+            {
+                notificationRepo.Create(new Notification()
+                {
+                    UserId = (int) resident.UserId,
+
+                    Title = "Payment Received",
+
+                    Message = "Your bill payment has been marked as paid.",
+
+                    IsRead = false,
+
+                    CreatedAt = DateTime.Now
+                });
+            }
             return repo.Update(bill);
         }
 

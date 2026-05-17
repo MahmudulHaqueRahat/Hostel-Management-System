@@ -71,5 +71,13 @@ namespace DAL.Repos
                 .Where(r => r.Status == "Active")
                 .ToList();
         }
+        public Resident GetResidentByBill(int billId)
+        {
+            var bill = db.Bills
+                .Include(b => b.Resident)
+                .FirstOrDefault(b => b.BillId == billId);
+
+            return bill?.Resident;
+        }
     }
 }

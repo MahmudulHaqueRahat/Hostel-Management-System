@@ -11,6 +11,8 @@ namespace BLL
             cfg.CreateMap<Room, RoomDTO>().ReverseMap();
             cfg.CreateMap<Resident, ResidentDTO>().ReverseMap();
             cfg.CreateMap<Expense, ExpenseDTO>().ReverseMap();
+            cfg.CreateMap<Notification, NotificationDTO>()
+                .ReverseMap();
             cfg.CreateMap<Bill, BillDTO>()
                 .ForMember(
                     dest => dest.ResidentName,

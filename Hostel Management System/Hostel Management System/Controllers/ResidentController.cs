@@ -11,13 +11,15 @@ namespace Hostel_Management_System.Controllers
         RoomService roomService;
         BillService billService;
         RoomAllocationService allocationService;
-        public ResidentController(ResidentService residentService, RoomService roomService, RoomAllocationService allocationService, AdminService adminService, BillService billService)
+        NotificationService notificationService;
+        public ResidentController(ResidentService residentService, RoomService roomService, RoomAllocationService allocationService, AdminService adminService, BillService billService, NotificationService notificationService )
         {
             this.residentService = residentService;
             this.roomService = roomService;
             this.allocationService = allocationService;
             this.adminService = adminService;
             this.billService = billService;
+            this.notificationService = notificationService;
         }
 
 
@@ -34,6 +36,10 @@ namespace Hostel_Management_System.Controllers
             int userId =
                 Convert.ToInt32(
                     HttpContext.Session.GetString("UserId"));
+            
+
+            ViewBag.UnreadCount =
+                notificationService.GetUnreadCount(userId);
 
             var resident =
                 residentService.GetByUserId(userId);
@@ -202,6 +208,20 @@ namespace Hostel_Management_System.Controllers
             .GetByResident(resident.ResidentId);
             return View(bills);
 
+        }
+
+        [HttpGet]
+        public IActionResult Notifications()
+        {
+            int userId = Convert.ToInt32(
+                HttpContext.Session.GetString("UserId"));
+
+            notificationService.MarkAllAsRead(userId);
+
+            var notifications =
+                notificationService.GetByUser(userId);
+
+            return View(notifications);
         }
     }
    }
