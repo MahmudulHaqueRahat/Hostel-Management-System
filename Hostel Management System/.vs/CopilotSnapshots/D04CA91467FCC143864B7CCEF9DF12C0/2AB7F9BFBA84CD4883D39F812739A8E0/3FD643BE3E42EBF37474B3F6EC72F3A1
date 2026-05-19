@@ -3,6 +3,7 @@ using DAL.EF.Tables;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace DAL.Repos
 {
@@ -77,31 +78,19 @@ namespace DAL.Repos
         }
         public List<User> SearchUsers(string search)
         {
-            //if (string.IsNullOrWhiteSpace(search))
-            //{
-            //    return db.Users.ToList();
-            //}
-
-            //search = search.ToLower();
-
-            //return db.Users
-            //    .Where(u =>
-            //        u.FullName.ToLower().Contains(search) ||
-            //        u.StudentId.ToLower().Contains(search) ||
-            //        u.Email.ToLower().Contains(search))
-            //    .ToList();
-            var query = db.Users
-        .Where(x => x.IsActive == true);
-
-            if (!string.IsNullOrEmpty(search))
+            if (string.IsNullOrWhiteSpace(search))
             {
-                query = query.Where(x =>
-                    x.FullName.Contains(search) ||
-                    x.Email.Contains(search) ||
-                    x.StudentId.Contains(search));
+                return db.Users.ToList();
             }
 
-            return query.ToList();
+            search = search.ToLower();
+
+            return db.Users
+                .Where(u =>
+                    u.FullName.ToLower().Contains(search) ||
+                    u.StudentId.ToLower().Contains(search) ||
+                    u.Email.ToLower().Contains(search))
+                .ToList();
         }
 
     }

@@ -43,9 +43,16 @@
 
     </form>
 
+    @if (ViewBag.Error != null)
+    {
+        <div class="alert alert-danger">
+            @ViewBag.Error
+        </div>
+    }
+
     @if (ViewBag.Message != null)
     {
-        <div class="alert alert-success mt-3">
+        <div class="alert alert-success">
             @ViewBag.Message
         </div>
     }

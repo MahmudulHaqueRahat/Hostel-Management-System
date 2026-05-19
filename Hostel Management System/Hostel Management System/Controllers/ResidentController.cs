@@ -21,7 +21,15 @@ namespace Hostel_Management_System.Controllers
             this.billService = billService;
             this.notificationService = notificationService;
         }
+        private void LoadNotificationCount()
+        {
+            int userId =
+                Convert.ToInt32(
+                    HttpContext.Session.GetString("UserId"));
 
+            ViewBag.UnreadCount =
+                notificationService.GetUnreadCount(userId);
+        }
 
         [HttpGet]
         public IActionResult Dashboard()
@@ -36,10 +44,9 @@ namespace Hostel_Management_System.Controllers
             int userId =
                 Convert.ToInt32(
                     HttpContext.Session.GetString("UserId"));
-            
 
-            ViewBag.UnreadCount =
-                notificationService.GetUnreadCount(userId);
+
+            LoadNotificationCount();
 
             var resident =
                 residentService.GetByUserId(userId);
@@ -101,6 +108,7 @@ namespace Hostel_Management_System.Controllers
             int userId = Convert.ToInt32(HttpContext.Session.GetString("UserId"));
 
             var resident = residentService.GetByUserId(userId);
+            LoadNotificationCount();
 
             bool hasApprovedRoom = allocationService.HasApprovedRoom(resident.ResidentId);
 
@@ -164,6 +172,7 @@ namespace Hostel_Management_System.Controllers
             int userId =
                 Convert.ToInt32(
                     HttpContext.Session.GetString("UserId"));
+            LoadNotificationCount();
 
             var resident =
                 residentService.GetByUserId(userId);
@@ -198,6 +207,7 @@ namespace Hostel_Management_System.Controllers
         {
             int userId = Convert.ToInt32(
             HttpContext.Session.GetString("UserId"));
+            LoadNotificationCount();
             var resident = residentService
             .GetByUserId(userId);
             if (resident == null)

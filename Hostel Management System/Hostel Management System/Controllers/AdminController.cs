@@ -203,6 +203,7 @@ namespace Hostel_Management_System.Controllers
             ViewBag.Search = search;
             return View(rooms);
         }
+        [HttpGet]
         public ActionResult GenerateBills()
         {
             return View();
@@ -211,6 +212,13 @@ namespace Hostel_Management_System.Controllers
         [HttpPost]
         public ActionResult GenerateBills(string billingMonth)
         {
+            if (string.IsNullOrWhiteSpace(billingMonth))
+            {
+                ViewBag.Error = "Billing month is required.";
+
+                return View();
+            }
+
             billService.GenerateMonthlyBills(billingMonth);
 
             ViewBag.Message =
